@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={incrementOne} >Count One - {countOne}</button>
-      {isEven ? "Even" : "Odd"}
+      {isEven ? "Even Number" : "Odd number"}
       <button onClick={incrementTwo} >Count Two - {countTwo}</button>
     </div>
   );
